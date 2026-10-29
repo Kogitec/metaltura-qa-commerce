@@ -19,7 +19,7 @@ elements:
   - name: catalogue
     instanceOf: Core:Package
     elements:
-      - name: Offer
+      - name: Deal
         instanceOf: Core:Class
         extends:
           - Core:RootElement
