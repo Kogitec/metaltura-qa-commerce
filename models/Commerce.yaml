@@ -11,3 +11,6 @@ elements:
     instanceOf: Core:Class
     extends:
       - Core:RootElement
+  - name: QaNouvelle
+      instanceOf: Core:Class
+      extends: [Core:RootElement]
