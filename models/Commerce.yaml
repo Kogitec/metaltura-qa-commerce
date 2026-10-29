@@ -23,7 +23,7 @@ elements:
         instanceOf: Core:Class
         extends:
           - Core:RootElement
-      - name: Basket
+      - name: Cart
         instanceOf: Core:Class
         extends:
           - Core:RootElement
