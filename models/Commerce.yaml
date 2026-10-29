@@ -1,0 +1,13 @@
+name: Commerce
+instanceOf: Core:Model
+depends:
+  - Kogitec/metaltura-qa-base/Base@main
+elements:
+  - name: Customer
+    instanceOf: Core:Class
+    extends:
+      - Base:Party
+  - name: Order
+    instanceOf: Core:Class
+    extends:
+      - Core:RootElement
