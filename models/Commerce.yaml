@@ -2,7 +2,7 @@ name: Commerce
 instanceOf: Core:Model
 version: latest
 depends:
-  - Kogitec/metaltura-qa-base/Base@v1.0.0
+  - Kogitec/metaltura-qa-base/Base@v2.0.0
 elements:
   - name: Customer
     instanceOf: Core:Class
