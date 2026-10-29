@@ -1,7 +1,8 @@
 name: Commerce
 instanceOf: Core:Model
+version: latest
 depends:
-  - Kogitec/metaltura-qa-base/Base@main
+  - Kogitec/metaltura-qa-base/Base@v1.0.0
 elements:
   - name: Customer
     instanceOf: Core:Class
@@ -13,4 +14,16 @@ elements:
       - Core:RootElement
   - name: QaNouvelle
     instanceOf: Core:Class
-    extends: [Core:RootElement]
+    extends:
+      - Core:RootElement
+  - name: catalogue
+    instanceOf: Core:Package
+    elements:
+      - name: Offer
+        instanceOf: Core:Class
+        extends:
+          - Core:RootElement
+      - name: Basket
+        instanceOf: Core:Class
+        extends:
+          - Core:RootElement
